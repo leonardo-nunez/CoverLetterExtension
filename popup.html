@@ -1,39 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>Job Ad Helper</title>
-    <script src="config.js" defer></script>
-    <script src="popup.js" defer></script>
+    <script
+      src="config.js"
+      defer
+    ></script>
+    <script
+      src="popup.js"
+      defer
+    ></script>
     <style>
-        textarea {
-            width: 100%;
-            margin-top: 10px;
-        }
-        button {
-            margin-top: 10px;
-        }
+      textarea {
+          width: 100%;
+          margin-top: 10px;
+      }
+      button {
+          margin-top: 10px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Job Ad Helper</h1>
 
     <!-- Generate Prompt -->
-    <button id="generate-prompt">Generate Prompt</button>
-    <textarea id="prompt-output" rows="4" readonly></textarea>
+    <button id="generate-prompt">Generate Promptss</button>
+    <textarea
+      id="prompt-output"
+      rows="4"
+      readonly
+    ></textarea>
     <p id="status"></p>
 
-    <hr>
+    <hr />
 
     <!-- Paste ChatGPT Response -->
     <label for="response-input">Paste ChatGPT Response:</label>
-    <textarea id="response-input" rows="8"></textarea>
+    <textarea
+      id="response-input"
+      rows="8"
+    ></textarea>
     <button id="save-response">Save Response</button>
     <button id="clear-response">Clear Response</button>
 
     <!-- Display Saved Response -->
     <label for="response-output">Saved Response:</label>
-    <textarea id="response-output" rows="8" readonly></textarea>
-</body>
+    <textarea
+      id="response-output"
+      rows="8"
+      readonly
+    ></textarea>
+  </body>
 </html>
